@@ -1,32 +1,31 @@
-(?i)wp
-(?i)wordpress
+(?i)^/.*wp.*$
+(?i)^/.*wordpress.*$
 
-(?i)\.env
-(?i)%2eenv
-(?i)%252eenv
+(?i)^/.*\.env.*$
+(?i)^/.*%2eenv.*$
+(?i)^/.*%252eenv.*$
 
-(?i)\.git
-(?i)\.svn
-(?i)\.hg
-(?i)\.DS_Store
-(?i)\.idea
-(?i)\.vscode
+(?i)^/.*\.git.*$
+(?i)^/.*\.svn.*$
+(?i)^/.*\.hg.*$
+(?i)^/.*\.DS_Store.*$
+(?i)^/.*\.idea.*$
+(?i)^/.*\.vscode.*$
 
-(?i)composer\.(json|lock)
-(?i)package-lock\.json
-(?i)yarn\.lock
-(?i)pnpm-lock\.yaml
-(?i)mix-manifest\.json
+(?i)^/.*composer\.(json|lock).*$ 
+(?i)^/.*package-lock\.json.*$
+(?i)^/.*yarn\.lock.*$
+(?i)^/.*pnpm-lock\.yaml.*$
+(?i)^/.*mix-manifest\.json.*$
 
-(?i)phpinfo\.php
-(?i)info\.php
-(?i)adminer(\.php)?
-(?i)database\.yml
-(?i)database\.yaml
-(?i)\.sql(\.gz|\.zip|\.bz2|\.xz)?
+(?i)^/.*phpinfo\.php.*$
+(?i)^/.*info\.php.*$
+(?i)^/.*adminer(\.php)?.*$
+(?i)^/.*database\.ya?ml.*$
+(?i)^/.*\.sql(\.gz|\.zip|\.bz2|\.xz)?.*$
 
-(?i)id_rsa(\.pub)?
-(?i)\.bash_history
-(?i)\.ssh/config
-(?i)\.dockerignore
-(?i)\.gitignore
+(?i)^/.*id_rsa(\.pub)?.*$
+(?i)^/.*\.bash_history.*$
+(?i)^/.*\.ssh/config.*$
+(?i)^/.*\.dockerignore.*$
+(?i)^/.*\.gitignore.*$
