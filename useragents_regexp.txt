@@ -1,0 +1,62 @@
+# ==== Generic "bot" indicators ====
+(?i)\b(bot|crawler|spider|scraper|scanner)\b
+
+# ==== CLI / консольные клиенты ====
+(?i)\bcurl/[0-9.]+
+(?i)\bwget(/[0-9.]+)?
+(?i)\bhttpie/[0-9.]+
+(?i)\blwp-request/[0-9.]+
+(?i)\bfetch[/ ][0-9.]*
+
+# ==== Python ====
+(?i)\bpython(-requests|/| )[0-9.]
+(?i)\bpython-requests\b
+(?i)\bpython-urllib\b
+(?i)\burllib/[0-9.]+
+(?i)\baiohttp/[0-9.]+
+(?i)\bhttpx/[0-9.]+
+(?i)\bscrapy/[0-9.]+
+(?i)\bpython-httpx\b
+
+# ==== Node / JS ====
+(?i)\bnode-fetch/[0-9.]+
+(?i)\baxios/[0-9.]+
+(?i)\bgot/[0-9.]+
+(?i)\bsuperagent/[0-9.]+
+(?i)\bundici/[0-9.]+
+
+# ==== Go ====
+(?i)\bGo-http-client(/[0-9.]+)?
+
+# ==== Java / Kotlin ====
+(?i)\bJava/[0-9._]+
+(?i)\bApache-HttpClient(/[0-9.]+)?
+(?i)\bOkHttp(/[0-9.]+)?
+
+# ==== PHP / прочие HTTP-клиенты ====
+(?i)\bGuzzleHttp/[0-9.]+
+(?i)\bFaraday(/[0-9.]+)?
+(?i)\bhttp\.rb(/[0-9.]+)?
+
+# ==== Headless / automation ====
+(?i)\bHeadlessChrome/[0-9.]+
+(?i)\bPuppeteer\b
+(?i)\bPlaywright\b
+(?i)\bSelenium\b
+(?i)\bPhantomJS/[0-9.]+
+(?i)\bGoogle Web Preview\b
+
+# ==== AI / LLM / известные боты ====
+(?i)\bGPTBot/[0-9.]+
+(?i)\bChatGPT-User\b
+(?i)\bClaudeWeb\b
+(?i)\bCCBot/[0-9.]+
+(?i)\bPerplexityBot\b
+(?i)\bBarkrowler\b
+
+# ==== Сканеры безопасности / спец. тулзы ====
+(?i)\bsqlmap\b
+(?i)\bNikto\b
+(?i)\bDirBuster\b
+(?i)\bNessus(/[0-9.]+)?
+(?i)\bwpscan\b
